@@ -7,10 +7,14 @@ sf::ContextSettings		CONTEXTSETTINGS(0, 0, 8, 2, 0);
 
 Game::Game()
 {
-	window_ = new sf::RenderWindow(VIDEOMODE, TITLE, STYLE, CONTEXSETTINGS);
+	window_ = new sf::RenderWindow(VIDEOMODE, TITLE, STYLE, CONTEXTSETTINGS);
 }
 
 Game::~Game()
 {
 	delete window_;
+}
+
+void Game::main()
+{
 }
